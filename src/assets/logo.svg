@@ -1,36 +1,15 @@
-<header>
-  <nav class="nav mx-1">
-    <!-- Generator: Adobe Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-    <svg
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      x="-20"
-      y="0px"
-      viewBox="0 0 1920 1080"
-      width="160px"
-      height="90px"
-      style="enable-background: new 0 0 1920 1080; display: block"
-      xml:space="preserve"
-    >
-      <style type="text/css">
-        .st0 {
-          fill: #f6dfc9;
-        }
-        .st1 {
-          fill: #a0c6e8;
-        }
-        .st2 {
-          fill: #fffccc;
-        }
-        .st3 {
-          fill: none;
-        }
-      </style>
-      <g id="Layer_2" transform="scale(2.5,2.5) translate(-550, -250)">
-        <path
-          class="st0"
-          d="M1057.18,433.96c-1.47-10.27-4.15-20.33-7.95-29.99c-0.15-0.49-0.27-0.99-0.4-1.48
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F6DFC9;}
+	.st1{fill:#A0C6E8;}
+	.st2{fill:#FFFCCC;}
+	.st3{fill:none;}
+</style>
+<g id="Layer_2">
+	<path class="st0" d="M1057.18,433.96c-1.47-10.27-4.15-20.33-7.95-29.99c-0.15-0.49-0.27-0.99-0.4-1.48
 		c-0.92-3.98-1.96-7.94-3.2-11.84c-1.48-4.93-3.62-9.63-5.39-14.46c-3.15-8.98-8.1-17.14-13.45-24.96
 		c-1.67-2.73-3.77-5.12-6.17-7.23c-5.8-5.78-11.73-11.55-18.53-16.16c-4.08-2.32-8.31-4.41-12.52-6.48
 		c-6.29-2.5-12.78-4.48-19.31-6.24c-7.12-2.14-14.44-3.63-21.83-4.48c-4.85-0.48-9.74-0.24-14.6-0.31
@@ -56,11 +35,8 @@
 		c0.99-0.17,1.98-0.31,2.96-0.5c8.72-2.07,17.79-3.7,26.72-1.96c5.29,0.47,10.63,0.86,15.93,0.48c5.18-0.8,10.28-2.29,15.19-4.1
 		c8.32-3.38,16.69-7.24,23.01-13.8c2.73-3.26,4.94-6.98,7.1-10.64c1.78-4.2,3.31-8.52,4.99-12.77c2.38-7.36,3.87-15.31,5.33-22.75
 		c0.95-5.32,1.5-10.71,2.69-15.99c1.03-4.75,1.18-9.62,1.52-14.45c0.27-4,0.63-8.01,0.68-12.02
-		C1057.9,444.08,1057.51,439.02,1057.18,433.96z"
-        />
-        <path
-          class="st1"
-          d="M1247.64,531.66c-0.04-5.05-0.62-10.09-1.12-15.12c-0.89-3.94-2-7.86-3.05-11.77
+		C1057.9,444.08,1057.51,439.02,1057.18,433.96z"/>
+	<path class="st1" d="M1247.64,531.66c-0.04-5.05-0.62-10.09-1.12-15.12c-0.89-3.94-2-7.86-3.05-11.77
 		c-2.2-6.38-5.58-12.48-9.27-18.39c-1.29-2.52-3.3-4.73-5.13-7.01c-1.8-2.21-3.52-4.47-5.69-6.48c-3.59-3.3-8.14-5.86-12.29-8.69
 		c-6.68-4.31-13.74-8.35-21.39-11.48c-13.31-3.65-21.21-3.37-34.61-0.37c-5.82,1.12-11.81,2.57-17.84,2.45
 		c-0.4-0.61-0.78-1.23-1.13-1.86c-0.93-1.97-1.87-3.93-2.95-5.85c-1.74-2.36-3.71-4.6-5.53-6.92c-1.58-1.85-3.46-3.54-5.56-5.03
@@ -84,11 +60,8 @@
 		c6.37,0.54,12.9,1.02,19.25,0.19c7.5-1.46,15.26-3.1,21.26-7.18c5.3-3.53,10.65-7.07,15.12-11.3c5.15-5.25,9.84-10.77,14.41-16.35
 		c3.17-3.57,6.52-7.14,8.73-11.16c1.48-3.22,3.26-6.37,4.54-9.64c1.51-5.31,3.02-10.64,3.85-16.05c0.81-4.41,1.47-8.83,2.31-13.24
 		C1247.19,547.97,1247.8,539.82,1247.64,531.66z M860.57,556c-0.23-0.19-0.47-0.37-0.71-0.56c0.28,0.03,0.55,0.05,0.83,0.07
-		C860.65,555.67,860.61,555.84,860.57,556z"
-        />
-        <path
-          class="st2"
-          d="M1269.06,351.26c-0.28-7.44-0.8-14.88-1.34-22.31c-0.94-4.96-1.9-9.95-3.2-14.83
+		C860.65,555.67,860.61,555.84,860.57,556z"/>
+	<path class="st2" d="M1269.06,351.26c-0.28-7.44-0.8-14.88-1.34-22.31c-0.94-4.96-1.9-9.95-3.2-14.83
 		c-2.2-5.83-4.28-11.75-7.02-17.35c-3.91-6.4-7.83-12.99-13.84-17.67c-6.08-5.2-12.27-10.28-18.58-15.2
 		c-4.27-3.57-9.6-5.15-14.92-6.42c-4.18-0.96-8.52-0.3-12.72,0.19c-5.53,0.74-11.17,1.89-16.21,4.34c-3.81,2.38-7.6,4.79-11.53,6.98
 		c-2.59,1.51-5.09,3.29-7.87,4.44c-0.55,0.06-1.09,0.09-1.65,0.03c-0.35-0.03-0.69-0.09-1.03-0.15c-4.78-1.59-9.46-3.42-13.99-5.63
@@ -106,15 +79,11 @@
 		c3.84-1.03,7.78-1.84,11.44-3.43c4.59-2.23,8.96-4.88,13.63-6.97c4.56-2.07,8.3-5.5,12.11-8.68c7-5.58,12.92-12.39,18.02-19.71
 		c2.24-2.77,4.36-5.64,6.17-8.71c2.69-3.77,4.78-7.86,6.18-12.28c3.08-6.73,4.14-14.06,5.7-21.24c0.76-5.92,0.9-11.91,1.36-17.87
 		c0.27-4.01,0.24-8.02,0.07-12.03c3.43-5.25,6.56-10.7,8.94-16.5c2.04-5.31,4.35-10.54,5.82-16.04c1.2-4.83,2.17-9.71,3.16-14.59
-		c1.54-7.16,1.63-14.52,2.15-21.8C1269.26,356.91,1269.13,354.08,1269.06,351.26z"
-        />
-      </g>
-      <g id="Layer_1" transform="scale(2.5,2.5) translate(-550, -250)">
-        <image
-          style="overflow: visible"
-          width="411"
-          height="130"
-          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZsAAACCCAYAAACQNmUfAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
+		c1.54-7.16,1.63-14.52,2.15-21.8C1269.26,356.91,1269.13,354.08,1269.06,351.26z"/>
+</g>
+<g id="Layer_1">
+	
+		<image style="overflow:visible;" width="411" height="130" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZsAAACCCAYAAACQNmUfAAAACXBIWXMAAAsSAAALEgHS3X78AAAg
 AElEQVR4Xu2deXyVV53/3ycLSUhIwhKWJEBYGtaQhC2B3OReXKqdcRS1dUadkdixzri11LrOqFDH
 qlXHYvvTcYdOHbeOllqty6iEQlsotoSlLRQKoVBLKZSk7Ov5/XFI73Oe5Z67596b5/N6fV7kOc/3
 e865D8/zfJ9zvt/zPUJKiQ8fPnz48JFKFJgEfIAQlZVQ1wiVTSAq3aUu9sCJHujZJmVvr7uMDx+5
@@ -365,15 +334,10 @@ EgwoGg5FNZBXDRer4XQN9FXDSzXeH352FJ+Fxt9Dwf/C9l/5mZh9pAMJGZt+XPGTLIe9S8MZowcC
 NQdgUhfQBTvW+n4YHwMNZXSaroMT74HtHSCFSSf5GPYK1D8Kwx6G3o2w61Epz5w1afnwkUwkxdhY
 oXavHNuZHsNTvw3GdcGlbn/04iPTIUTtRLjqH2F/JxyYapKPD0KqRcq1W6DwYTiyEZ7ZJuWlyyZN
 Hz5SiaQbGyvUiGdUHVSG4EwTHK9zrteJBo3robgXSrrhTDec6/Wd+z6yGUKMrYbaBihrgIsNcKwB
-9s2C80NMumGUnIG6J2FUN4htajr62a1+9JiPTMT/B8Zqy48X0Lw3AAAAAElFTkSuQmCC"
-          transform="matrix(1 0 0 1 655.8859 384.3919)"
-        ></image>
-
-        <image
-          style="overflow: visible"
-          width="247"
-          height="130"
-          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAACCCAYAAAB1oTUfAAAACXBIWXMAAAthAAALYQFbeSumAAAe
+9s2C80NMumGUnIG6J2FUN4htajr62a1+9JiPTMT/B8Zqy48X0Lw3AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 655.8859 384.3919)">
+	</image>
+	
+		<image style="overflow:visible;" width="247" height="130" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAACCCAYAAAB1oTUfAAAACXBIWXMAAAthAAALYQFbeSumAAAe
 D0lEQVR4Xu1de3BU13n/HSGBQLBaMOYlBEIIIRmDVjwsgVba69ZN85pa00ynTdKEdTppkk4S4zRJ
 p3k0cpMmnU4zhkzbNNM2Wqau0zRJgaRNk0kzrAJ2TB5lCbYLDRiRYAeCHWttbIONOf3jaH3Ouefc
 e+4+713p/GZ+M3vvfudxH995fN93ziWUUlhEC4T0O8C5HKVTUyZZCwsdGkwCFrUFIYOjQO4w0JMx
@@ -509,40 +473,7 @@ r0gHV/JKoeUK8PxCfmz91xbhYkYptgim5CtHgRcTwIVEZRW9bwKI54BXcsBkFuhw5A/aty62oaQW
 YaLRJFCvmI55zxWOmbV8XQKIO+zMiwngqjBHLkS6iX7zRZNA4yT7fX0SuJzTxdIT4ghurrbzlF6w
 Sm0RKmasYrsx3YNmUZVllFOCYq9WFN/CotaoCz929DHZx3/Pt4ptETqsYlcEotuL2mG4Reiwil0m
 1HDWvO2xLUKHVeyysbTDJGFhUWtYxa4wrP/aIgqwil02Cu4zC4voYNa4u6qHqQz/PXDKU8zCoob4
-f8+sZ1Ma+j/FAAAAAElFTkSuQmCC"
-          transform="matrix(0.9682 0 0 0.9682 962.3887 493.9491)"
-        ></image>
-      </g>
-    </svg>
-    <ul *ngIf="!isHome">
-      <li><a>Bri Bri's Recipes</a></li>
-    </ul>
-    <ul *ngIf="!isHome">
-      <li>
-        <a routerLink="/home"
-          ><fa-icon [icon]="faHouse" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-      <li>
-        <a routerLink="/search"
-          ><fa-icon [icon]="faSearch" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-      <li>
-        <a routerLink="/post"
-          ><fa-icon [icon]="faPlus" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-      <li>
-        <a routerLink="/account"
-          ><fa-icon [icon]="faUser" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-    </ul>
-    <ul *ngIf="isHome">
-      <button>Login</button>
-      <button>Sign up</button>
-    </ul>
-  </nav>
-</header>
-<router-outlet></router-outlet>
+f8+sZ1Ma+j/FAAAAAElFTkSuQmCC" transform="matrix(0.9682 0 0 0.9682 962.3887 493.9491)">
+	</image>
+</g>
+</svg>

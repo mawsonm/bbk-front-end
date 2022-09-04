@@ -1,0 +1,44 @@
+@function set-text-color($color) {
+    @if (lightness($color) > 50) {
+      @return #333;
+    } @else {
+      @return #fff;
+    }
+  }
+  
+  @function set-bottom-line-color($color) {
+    @if (lightness($color) > 50) {
+      @return black;
+    } @else {
+      @return $bg-light;
+    }
+  }
+  
+  @mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @mixin flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  @mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-text {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  
+  .sub-header-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }

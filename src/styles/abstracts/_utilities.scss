@@ -1,0 +1,58 @@
+.text-center {
+    text-align: center;
+  }
+  
+  .center-items {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+  }
+  
+  .py {
+    &-1 {
+      padding: 1rem 0rem;
+    }
+    &-2 {
+      padding: 2rem 0rem;
+    }
+    &-3 {
+      padding: 3rem 0rem;
+    }
+    &-4 {
+      padding: 4rem 0rem;
+    }
+  }
+  
+  .pxy {
+    &-1 {
+      padding: 1rem 1rem;
+    }
+    &-2 {
+      padding: 2rem 2rem;
+    }
+    &-3 {
+      padding: 3rem 3rem;
+    }
+    &-4 {
+      padding: 4rem 4rem;
+    }
+  }
+  
+  .my {
+    &-1 {
+      margin: 1rem 0rem;
+    }
+    &-2 {
+      margin: 2rem 0rem;
+    }
+    &-3 {
+      margin: 3rem 0rem;
+    }
+    &-4 {
+      margin: 4rem 0rem;
+    }
+  }
+  
+  %container-shared {
+    margin-bottom: 6rem;
+  }
