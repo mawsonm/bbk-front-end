@@ -1,0 +1,54 @@
+<div class="center-items container">
+  <div class="login-grid">
+    <div class="header">
+      <h1>Welcome to our Community</h1>
+    </div>
+    <div class="sub-header">
+      <h2>A master chef starts right here</h2>
+    </div>
+    <div class="graphic"></div>
+    <mat-card>
+      <div class="username">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your username</mat-label>
+          <input matInput placeholder="bribri" [formControl]="username" />
+          <mat-error *ngIf="username.hasError('minlength')">
+            Username length must be greater than 8 characters
+          </mat-error>
+          <mat-error *ngIf="username.hasError('maxlength')">
+            Username length must be less than 20 characters
+          </mat-error>
+          <mat-error *ngIf="username.hasError('required')">
+            Username is required
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="password">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input matInput placeholder="Bribri123!" [formControl]="password" />
+          <mat-error *ngIf="password.hasError('minlength')">
+            Password length must be greater than 8 characters
+          </mat-error>
+          <mat-error *ngIf="password.hasError('maxlength')">
+            Password length must be less than 20 characters
+          </mat-error>
+          <mat-error *ngIf="password.hasError('required')">
+            Password is required
+          </mat-error>
+          <mat-error *ngIf="password.hasError('pattern')">
+            Password must contain at least one uppercase letter, one lowercase
+            letter, one number, and one special character
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="signin">
+        <button matButton>Sign in</button>
+      </div>
+      <div class="forgot-password-row">
+        <div class="forgot-password"></div>
+        <div class="stayloggedin"></div>
+      </div>
+    </mat-card>
+  </div>
+</div>
