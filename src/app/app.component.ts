@@ -18,7 +18,7 @@ export class AppComponent {
   faPlus = faPlus;
   faSearch = faMagnifyingGlass;
 
-  isHome: boolean = false;
+  isLogin: boolean = false;
 
   constructor(private router: Router) {
     this.router.events
@@ -29,8 +29,8 @@ export class AppComponent {
       )
       .subscribe((event) => {
         console.log(event);
-        if (event.url == '/') {
-          this.isHome = true;
+        if (event.url == '/login') {
+          this.isLogin = true;
         }
       });
   }
