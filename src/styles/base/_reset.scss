@@ -14,17 +14,17 @@
   ul {
     list-style: none;
     display: flex;
+    gap: 1.5rem;
   
     li {
       padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
     }
   }
   
   a {
     text-decoration: none;  
-    &:hover {
-      opacity: 0.5;
-    }
   }
 
   input:-webkit-autofill,

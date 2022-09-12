@@ -514,35 +514,29 @@ f8+sZ1Ma+j/FAAAAAElFTkSuQmCC"
         ></image>
       </g>
     </svg>
-    <ul *ngIf="!isLogin">
-      <li><a>Bri Bri's Recipes</a></li>
-    </ul>
-    <ul *ngIf="!isLogin">
-      <li>
-        <a routerLink="/home"
-          ><fa-icon [icon]="faHouse" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-      <li>
-        <a routerLink="/search"
-          ><fa-icon [icon]="faSearch" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-      <li>
-        <a routerLink="/post"
-          ><fa-icon [icon]="faPlus" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-      <li>
-        <a routerLink="/account"
-          ><fa-icon [icon]="faUser" transform="grow-5"></fa-icon
-        ></a>
-      </li>
-    </ul>
-    <ul *ngIf="isLogin">
-      <button mat-raised-button color="primary">Login</button>
-      <button mat-raised-button color="accent">Sign up</button>
-    </ul>
+    <ng-container *ngIf="isAuthenticated">
+      <ul>
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="search">Recipes</a></li>
+        <li><a routerLink="addRecipe">Post</a></li>
+        <li class="nav-border">
+          <a routerLink="account">
+            <fa-icon [icon]="faUser" transform="grow-2"></fa-icon>
+          </a>
+        </li>
+      </ul>
+    </ng-container>
+    <ng-container *ngIf="!isAuthenticated">
+      <ul>
+        <button mat-stroked-button color="accent" routerLink="register">
+          Sign Up
+        </button>
+        <button mat-raised-button color="accent" routerLink="login">
+          Login
+        </button>
+      </ul>
+    </ng-container>
   </nav>
 </header>
+<app-sidebar *ngIf="isSearch"></app-sidebar>
 <router-outlet></router-outlet>

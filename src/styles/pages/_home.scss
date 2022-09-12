@@ -1,0 +1,5 @@
+.placeholder-container {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-color: mat-color($my-primary, 800);
+}

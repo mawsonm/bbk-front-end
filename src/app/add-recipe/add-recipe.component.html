@@ -1,0 +1,60 @@
+<div class="add-recipe-container">
+  <h1 class="text-center">Add recipe</h1>
+  <h2 class="text-center">Upload your recipe for everyone to see!</h2>
+  <mat-card class="add-recipe-grid">
+    <div class="section-1 mxy-3">
+      <h3>1 Recipe Information</h3>
+    </div>
+    <div class="right-container">
+      <mat-form-field>
+        <mat-label>Recipe Name</mat-label>
+        <input matInput placeholder="Honey Soy Salmon" [formControl]="title" />
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Description</mat-label>
+        <textarea
+          matInput
+          cdkTextareaAutosize
+          #autosize="cdkTextareaAutosize"
+          cdkAutosizeMinRows="3"
+          cdkAutosizeMaxRows="12"
+          placeholder="Sweet seafood"
+          [formControl]="description"
+        ></textarea>
+      </mat-form-field>
+      <!-- <div class="favorite">
+        <mat-form-field>
+          <mat-label>Matt's Favorite?</mat-label>
+          <mat-slide-toggle [(ngModel)]="isMattsFav">{{
+            isMattsFav ? "Yes" : "No"
+          }}</mat-slide-toggle>
+        </mat-form-field>
+      </div> -->
+      <mat-form-field>
+        <mat-label>Category</mat-label>
+        <input
+          type="text"
+          placeholder="Pick a category"
+          aria-label="Number"
+          matInput
+          [formControl]="categoryCtrl"
+          [matAutocomplete]="auto"
+        />
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option *ngFor="let category of categories" [value]="category">
+            {{ category.name }}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="section-2">
+      <h3>2 Ingredients</h3>
+    </div>
+    <app-ingredients></app-ingredients>
+    <mat-divider></mat-divider>
+    <h3>3 Steps</h3>
+    <app-steps></app-steps>
+    <button mat-button color="accent">Upload</button>
+  </mat-card>
+</div>

@@ -7,7 +7,7 @@ import { API_ROOT } from 'sensitive/sensitive';
   providedIn: 'root',
 })
 export class AuthService {
-  token: string | undefined;
+  token$: Subject<string> = new Subject();
   constructor(private http: HttpClient) {}
 
   login(username: string | null, password: string | null) {

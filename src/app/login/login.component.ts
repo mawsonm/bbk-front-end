@@ -38,9 +38,9 @@ export class LoginComponent implements OnInit {
     this.authService.login(this.username.value, this.password.value).subscribe({
       next: (res: any) => {
         console.log(res);
-        this.authService.token = res?.token;
+        this.authService.token$.next(res?.token);
         this.sharedService.snack.next([true, 'Successfully logged in!']);
-        this.router.navigateByUrl('');
+        this.router.navigateByUrl('search');
       },
       error: () => {
         this.sharedService.snack.next([

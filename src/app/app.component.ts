@@ -6,6 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { filter } from 'rxjs';
+import { AuthService } from './services/auth.service';
 import { SharedService } from './services/shared.service';
 
 @Component({
@@ -21,11 +22,15 @@ export class AppComponent {
   faSearch = faMagnifyingGlass;
 
   isLogin: boolean = false;
+  isSearch: boolean = false;
+
+  isAuthenticated: boolean = false;
 
   constructor(
     private router: Router,
     private _snackbar: MatSnackBar,
-    private sharedService: SharedService
+    private sharedService: SharedService,
+    private authService: AuthService
   ) {
     this.router.events
       .pipe(
@@ -37,8 +42,13 @@ export class AppComponent {
         console.log(event);
         if (event.url == '/login' || event.url == '/register') {
           this.isLogin = true;
+          this.isSearch = false;
+        } else if (event.url == '/search') {
+          this.isSearch = true;
+          this.isLogin = false;
         } else {
           this.isLogin = false;
+          this.isSearch = false;
         }
       });
     this.sharedService.snack.subscribe((msg) => {
@@ -49,6 +59,13 @@ export class AppComponent {
         config.duration = 2500;
       }
       _snackbar.open(msg[1], 'Close', config);
+    });
+    this.authService.token$.subscribe((token) => {
+      if (token) {
+        this.isAuthenticated = true;
+      } else {
+        this.isAuthenticated = false;
+      }
     });
   }
 }
